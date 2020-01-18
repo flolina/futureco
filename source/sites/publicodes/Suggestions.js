@@ -9,7 +9,6 @@ import { Link } from 'react-router-dom'
 import { flatRulesSelector } from 'Selectors/analyseSelectors'
 import ItemCard from './ItemCard'
 
-let ItemCardWithoutData = ItemCard()
 let buildFuse = rules =>
 	new Fuse(rules.map(pick(['title', 'description', 'name', 'dottedName'])), {
 		keys: searchWeights,
@@ -53,7 +52,7 @@ export default connect(state => ({ rules: flatRulesSelector(state) }))(
 											}
 										`}
 									>
-										<ItemCardWithoutData {...rule} />
+										<ItemCard {...rule} />
 									</Link>
 								</li>
 							)
