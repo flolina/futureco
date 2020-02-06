@@ -15,7 +15,8 @@ module.exports.default = {
 			Selectors: path.resolve('source/selectors/'),
 			Reducers: path.resolve('source/reducers/'),
 			Types: path.resolve('source/types/'),
-			Images: path.resolve('source/images/')
+			Images: path.resolve('source/images/'),
+			'react-dom': '@hot-loader/react-dom'
 		},
 		extensions: ['.js', '.ts', '.tsx']
 	},

@@ -21,6 +21,7 @@
 	"dependencies": {
 		"@babel/polyfill": "^7.6.0",
 		"@babel/runtime": "^7.6.0",
+		"@hot-loader/react-dom": "^16.11.0",
 		"@microlink/react": "^4.0.1",
 		"classnames": "^2.2.5",
 		"color-convert": "^1.9.2",
@@ -40,7 +41,7 @@
 		"react": "^16.8.6",
 		"react-addons-css-transition-group": "^15.6.2",
 		"react-color": "^2.14.0",
-		"react-dom": "npm:@hot-loader/react-dom",
+		"react-dom": "^16.12.0",
 		"react-easy-emoji": "^1.2.0",
 		"react-helmet": "6.0.0-beta",
 		"react-highlight-words": "^0.11.0",
@@ -169,7 +170,7 @@
 		"prettier": "^1.19.1",
 		"ramda-fantasy": "^0.8.0",
 		"raw-loader": "^0.5.1",
-		"react-hot-loader": "^4.12.15",
+		"react-hot-loader": "^4.12.19",
 		"serve": "^11.1.0",
 		"serve-handler": "^6.1.1",
 		"sinon": "^4.5.0",
@@ -188,9 +189,5 @@
 		"worker-loader": "^2.0.0",
 		"yaml-jest": "^1.0.5",
 		"yaml-loader": "^0.5.0"
-	},
-	"optionalDependencies": {
-		"cypress": "^3.6.1",
-		"prerender-spa-plugin": "^3.4.0"
 	}
 }
