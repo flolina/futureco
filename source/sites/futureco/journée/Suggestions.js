@@ -26,7 +26,7 @@ export default ({ rules }) => {
 			<ul
 				css={`
 					padding: 0;
-					margin-bottom: 2rem;
+					margin-bottom: 0.6rem;
 					li {
 						margin: 0 0 1rem;
 						list-style-type: none;
