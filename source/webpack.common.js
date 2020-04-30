@@ -109,10 +109,10 @@ module.exports.HTMLPlugins = ({ injectTrackingScript = false } = {}) => [
 		inject: false,
 
 		template: 'index.html',
-		logo: 'https://futur.eco/images/logo.svg',
+		logo: 'https://ecolab-transport.netlify.app/images/ecolab.png',
 		chunks: ['publicodes'],
 
-		title: "Futureco 🔥 – L'impact climat de vos gestes quotidiens",
+		title: 'MicMac',
 		description:
 			"La catastrophe climatique n'est plus qu'une menace lointaine, c'est une actualité. Tous vos gestes et consommations quotidiennes impactent le climat. À vous de jouer !",
 		filename: 'publicodes.html',
